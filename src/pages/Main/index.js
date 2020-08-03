@@ -26,6 +26,8 @@ import like from '../../assets/like.svg';
 import location from '../../assets/location.svg';
 import growth from '../../assets/growth.svg';
 
+// import growth from '../../assets/growth.svg';
+
 import profissional1 from '../../assets/objetivoDoAplicativo.png';
 import profissional2 from '../../assets/profissional.png';
 import profissional3 from '../../assets/clientes.png';
