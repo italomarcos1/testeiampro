@@ -13,14 +13,12 @@ export const Container = styled.div`
   #phone {
     display: block;
     margin-top: 40px;
-background-color:#7156c9;
-text-align:center;
+	text-align:center;
   }
 
-#phoneimg{
-	width:80%;
-background-color:#404;
-}
+	#phoneimg{
+		width:80%;
+	}
 
   @media screen and (min-width: 900px) {
     #participe,
