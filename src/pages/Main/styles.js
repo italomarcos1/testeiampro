@@ -13,6 +13,10 @@ export const Container = styled.div`
     margin-top: 40px;
   }
 
+#phoneimg{
+	width:80%;
+}
+
   @media screen and (min-width: 900px) {
     #participe,
     #register,

@@ -99,7 +99,7 @@ export default function Main() {
         <strong>Deixe a divulgação conosco!</strong>
       </Info>
       <div id="phone">
-        <img src={smartphone} alt="Phone" />
+        <img id="phoneimg" src={smartphone} alt="Phone" />
       </div>
       <Services>
         <ul>
