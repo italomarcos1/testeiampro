@@ -166,6 +166,9 @@ export default function Register() {
               name="occupation"
               title="Profissão"
               placeholder="Informe sua profissão"
+              style={{
+                marginTop: 40,
+              }}
             />
 
             <Input
@@ -181,6 +184,9 @@ export default function Register() {
               name="services"
               title="Serviços que Oferece"
               full={isDesktop}
+              style={{
+                marginTop: 40,
+              }}
             />
           </InputContainer>
 

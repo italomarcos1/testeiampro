@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import { Container, Title } from './styles';
 import TextArea from './textarea';
 
-export default function CustomTextArea({ name, title, full, ...rest }) {
+export default function CustomTextArea({ style, name, title, full, ...rest }) {
   return (
-    <Container full={full}>
+    <Container full={full} style={style}>
       <Title>{title}</Title>
       <TextArea name={name} full={full} {...rest} />
     </Container>
@@ -21,3 +21,4 @@ CustomTextArea.propTypes = {
 CustomTextArea.defaultProps = {
   full: false,
 };
+
