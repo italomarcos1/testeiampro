@@ -14,9 +14,11 @@ import {
   Form,
   InputContainer,
   FinishButton,
+BannerContainer,
 } from './styles';
 
 import logo from '../../assets/logo.png';
+import logo2 from '../../assets/logo@2x.png';
 import smartphone from '../../assets/app-1.png';
 import Input from '../../components/Input';
 import SmallSelect from '../../components/SmallSelect';
