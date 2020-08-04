@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import { Form as TForm } from '@unform/web';
 
 import banner from '../../assets/banner.jpg';
-import header from '../../assets/headerbg.png';
 import bannermobile from '../../assets/headerbg.png';
-
 
 export const Container = styled.div`
   width: 100%;
@@ -35,7 +33,6 @@ export const Container = styled.div`
     }
   }
 `;
-
 
 export const Header = styled.header`
   background: rgba(255, 255, 255, 0.9);

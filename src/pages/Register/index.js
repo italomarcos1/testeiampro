@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import {Link}from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { notify } from 'react-notify-toast';
 
@@ -8,13 +8,12 @@ import {
   Header,
   Footer,
   Logo,
-  Background,
   Info,
   FormContainer,
   Form,
   InputContainer,
   FinishButton,
-BannerContainer,
+  BannerContainer,
 } from './styles';
 
 import logo from '../../assets/logo.png';
@@ -59,15 +58,13 @@ export default function Register() {
 
   return (
     <Container>
-
-     <Header>
+      <Header>
         <Link>
           <img src={logo} alt="Logo" srcSet={`${logo} 1x, ${logo2} 2x`} />
         </Link>
       </Header>
 
-      <BannerContainer/>
-
+      <BannerContainer />
 
       <Info>
         <h2>Cadastro gratuito para o aplicativo</h2>
@@ -123,7 +120,7 @@ export default function Register() {
                   width: '100%',
                   height: 60,
                   justifyContent: 'center',
-//                  justifyContent: 'center',
+                  //                  justifyContent: 'center',
                 }}
               >
                 <SmallSelect
@@ -166,7 +163,11 @@ export default function Register() {
           </InputContainer>
 
           <InputContainer
-            style={isDesktop === true ? { display: 'flex' } : { height: 180, marginTop:40 }}
+            style={
+              isDesktop === true
+                ? { display: 'flex' }
+                : { height: 180, marginTop: 40 }
+            }
           >
             <Input
               name="occupation"
@@ -188,7 +189,6 @@ export default function Register() {
               name="services"
               title="Serviços que Oferece"
               full={isDesktop}
-              
             />
           </InputContainer>
 
