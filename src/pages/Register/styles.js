@@ -218,7 +218,7 @@ export const InputContainer = styled.div`
   height: 75px;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 40px;
 
   @media screen and (min-width: 100px) {
     flex-direction: column;
