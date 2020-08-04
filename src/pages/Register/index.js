@@ -63,12 +63,7 @@ export default function Register() {
         </Link>
       </Header>
 
-      <BannerContainer>
-        <Content>
-          <strong>Você é um profissional?</strong>
-          <Link to="/register">Cadastre-se Gratuitamente</Link>
-        </Content>
-      </BannerContainer>
+      <BannerContainer/>
 
 
       <Info>
