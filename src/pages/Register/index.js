@@ -56,13 +56,20 @@ export default function Register() {
 
   return (
     <Container>
-      <Header>
-        <Background />
 
-        <Logo>
-          <img src={logo} alt="Logo" />
-        </Logo>
+     <Header>
+        <Link>
+          <img src={logo} alt="Logo" srcSet={`${logo} 1x, ${logo2} 2x`} />
+        </Link>
       </Header>
+
+      <BannerContainer>
+        <Content>
+          <strong>Você é um profissional?</strong>
+          <Link to="/register">Cadastre-se Gratuitamente</Link>
+        </Content>
+      </BannerContainer>
+
 
       <Info>
         <h2>Cadastro gratuito para o aplicativo</h2>

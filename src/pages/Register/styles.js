@@ -34,57 +34,49 @@ export const Container = styled.div`
   }
 `;
 
-export const Background = styled.div`
-  background-color: rgba(255, 255, 255, 0.6);
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 66px;
-  transition: 0.2s;
-  grid-column: 1/9;
-  grid-row: 1;
-`;
 
-export const Logo = styled.div`
-  margin-top: 10px;
-  grid-column: 1/9;
-  grid-row: 1;
-  text-align: center;
-
-  img {
-    grid-column: 3/7;
-    text-align: center;
-  }
-`;
-
-export const Header = styled.section`
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
-  width: 100%;
-  margin: 0 auto;
+export const Header = styled.header`
+  background: rgba(255, 255, 255, 0.9);
+  /* box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1); */
+  padding: 10px 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 5;
+`;
+
+export const BannerContainer = styled.section`
+  /** Grid Default Properties */
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+
+  /* End - Grid Default Properties */
 
   @media screen and (min-width: 100px) {
-    background-image: url(${header});
+    background-image: url(${bannermobile});
+    width: 100%;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    padding-top: 10px;
-    height: 187px;
     transition: 0.2s;
+    height: 147px;
   }
 
   @media screen and (min-width: 900px) {
-    background-image: none;
-    height: 66px;
-    padding-top: 10px;
-    width: 100%;
-    margin: 0 auto;
+    height: 607px;
+    background-image: url(${banner});
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.2s;
   }
 `;
 
