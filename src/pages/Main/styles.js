@@ -8,13 +8,17 @@ export const Container = styled.div`
   height: 100%;
   padding-top: 60px;
 
+  @media screen and (min-width: 100px) {}
+
   #phone {
     display: block;
     margin-top: 40px;
+background-color:#7156c9;
   }
 
 #phoneimg{
 	width:80%;
+background-color:#404;
 }
 
   @media screen and (min-width: 900px) {
@@ -162,10 +166,6 @@ export const Info = styled.section`
     text-align: center;
     margin-top: 10px;
     padding: 0 20px;
-
-    #phone {
-      margin-top: 20px;
-    }
 
     h2 {
       font: 18px 'SFProHeavy';
