@@ -113,6 +113,7 @@ export default function Register() {
 
               <InputContainer
                 style={{
+                  marginTop: 20,
                   flexDirection: 'row',
                   width: '100%',
                   height: 60,
@@ -154,6 +155,7 @@ export default function Register() {
               alwaysShowMask
               onChange={e => setPhone(e.target.value)}
               value={phone}
+              style={{ marginTop: 40 }}
             />
           </InputContainer>
 
@@ -170,6 +172,7 @@ export default function Register() {
               name="operation"
               title="Qual a área de cobertura que atua em MG?"
               placeholder="Informe sua área de cobertura"
+              style={{ marginTop: 40 }}
             />
           </InputContainer>
 
