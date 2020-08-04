@@ -161,7 +161,7 @@ export default function Register() {
           </InputContainer>
 
           <InputContainer
-            style={isDesktop === true ? { display: 'flex' } : { height: 140, marginTop: 40 }}
+            style={isDesktop === true ? { display: 'flex' } : { height: 160 }}
           >
             <Input
               name="occupation"
@@ -178,14 +178,12 @@ export default function Register() {
             />
           </InputContainer>
 
-          <InputContainer style={{ height: 177 }}>
+          <InputContainer style={{ height: 177, marginTop: 40 }}>
             <TextArea
               name="services"
               title="Serviços que Oferece"
               full={isDesktop}
-              style={{
-                marginTop: 40,
-              }}
+              
             />
           </InputContainer>
 
