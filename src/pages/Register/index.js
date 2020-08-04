@@ -161,7 +161,7 @@ export default function Register() {
           </InputContainer>
 
           <InputContainer
-            style={isDesktop === true ? { display: 'flex' } : { height: 160 }}
+            style={isDesktop === true ? { display: 'flex' } : { height: 160,backgroundColor:"#f0f" }}
           >
             <Input
               name="occupation"
