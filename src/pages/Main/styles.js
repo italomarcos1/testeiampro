@@ -14,6 +14,7 @@ export const Container = styled.div`
     display: block;
     margin-top: 40px;
 background-color:#7156c9;
+text-align:center;
   }
 
 #phoneimg{
