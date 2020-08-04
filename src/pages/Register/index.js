@@ -161,12 +161,13 @@ export default function Register() {
           </InputContainer>
 
           <InputContainer
-            style={isDesktop === true ? { display: 'flex' } : { height: 160,backgroundColor:"#f0f",marginTop:40 }}
+            style={isDesktop === true ? { display: 'flex' } : { height: 180, backgroundColor:"#404", marginTop:40 }}
           >
             <Input
               name="occupation"
               title="Profissão"
               placeholder="Informe sua profissão"
+              style={{ marginTop: 40 }}
             />
 
             <Input
