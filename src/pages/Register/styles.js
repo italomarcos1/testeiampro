@@ -63,6 +63,11 @@ export const Header = styled.section`
   gap: 10px;
   width: 100%;
   margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
 
   @media screen and (min-width: 100px) {
     background-image: url(${header});
@@ -296,3 +301,4 @@ export const Footer = styled.section`
     margin: 0 auto;
   }
 `;
+
