@@ -118,6 +118,7 @@ export default function Register() {
                   width: '100%',
                   height: 60,
                   justifyContent: 'center',
+//                  justifyContent: 'center',
                 }}
               >
                 <SmallSelect
